@@ -18,7 +18,7 @@ class FaqController extends Controller
             ],
             [
                 'question' => 'Kaip bazarinti Lenkiškai?',
-                'answer' => "'Dzień dobry' (labas)\n'Dziękuję' (ačiū)\n'Proszę' (prašau)\n'Kurwa' (visi supranta)\nArba tiesiog šypsokis",
+                'answer' => "'Dzień dobry' (labas)\n'Dziękuję' (ačiū)\n'Proszę' (prašau)\n'Kurwa' (visi supranta)\n 'Zròb mnie loda' (ciulpk man bybi)\nArba tiesiog šypsokis",
                 'category' => 'Kalba'
             ],
             [
