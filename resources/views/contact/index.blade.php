@@ -197,10 +197,6 @@
                     <div class="contact-info">
                         <p>📞 +370 63383783 Ainius</p>
                         <p>📞 +370 67462267 Karlas</p>
-                        <p>📞 +370 63383783 Driukas</p>
-                        <p>📞 +370 63383783 Jonas</p>
-                        <p>📞 +370 63383783 Arturka</p>
-
                     </div>
                 </div>
             </div>

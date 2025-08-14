@@ -55,6 +55,13 @@ class TaskSeeder extends Seeder
                 'status' => Task::STATUS_IN_PROGRESS,
             ],
             [
+                'name' => 'SHOTOMATIKA',
+                'description' => 'Išgerti 5 shotus',
+                'status' => Task::STATUS_IN_PROGRESS,
+                'goal' => 5,
+                'count' => 0,
+            ],
+            [
                 'name' => 'CIGIAMORFIJA',
                 'description' => 'Surukyti cigariuką trumpiau negu per 40 sekundžių',
                 'status' => Task::STATUS_IN_PROGRESS,
@@ -73,6 +80,18 @@ class TaskSeeder extends Seeder
                 'name' => 'PRIKOLOGIJA',
                 'description' => 'Pasakyti anekdotą lenkui, lenkiškai',
                 'status' => Task::STATUS_IN_PROGRESS,
+            ],
+            [
+                'name' => 'KASIOLOGIJA',
+                'description' => '10 taiklių metimų į žaislinį kašį',
+                'status' => Task::STATUS_IN_PROGRESS,
+            ],
+            [
+                'name' => 'KOKTEILIOMANIJA',
+                'description' => 'Išgerti 5 kokteilių',
+                'status' => Task::STATUS_IN_PROGRESS,
+                'goal' => 5,
+                'count' => 0,
             ],
         ];
 

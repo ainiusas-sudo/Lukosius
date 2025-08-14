@@ -256,8 +256,7 @@
 <body>
     <div class="container">
         <div class="header">
-            <h1>📊 PROGRESAS</h1>
-            <p>Kaip sekasi tavo kelionė į legendą?</p>
+            <h1>PROGRESAS</h1>
         </div>
 
         <div class="progress-card">

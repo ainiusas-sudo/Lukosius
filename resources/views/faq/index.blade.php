@@ -95,7 +95,7 @@
         }
         
         .faq-answer.open {
-            max-height: 200px;
+            max-height: 300px;
             margin-top: 15px;
         }
         
