@@ -243,11 +243,6 @@
         </div>
 
         <div class="content">
-            @if(session('success'))
-                <div class="success-message">
-                    🎉 {{ session('success') }} 🎉
-                </div>
-            @endif
 
             <h2 style="color: #8B4513; font-size: 1.8em; margin-bottom: 25px; text-transform: uppercase; letter-spacing: 1px; line-height: 1.2; font-weight: 700;">MISSION CONTROL</h2>
             
@@ -255,7 +250,7 @@
                 <a href="{{ route('tasks.index') }}" class="nav-card">
                     <div class="nav-icon">📋</div>
                     <div class="nav-title">Mokslai(užduotys)</div>
-                    <div class="nav-description">Atlikite užduotis ir gaukite tašku</div>
+                    <div class="nav-description">Atlikite užduotis ir gaukite taškų</div>
                 </a>
 
                 <a href="{{ route('progress.index') }}" class="nav-card">

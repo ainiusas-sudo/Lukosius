@@ -197,7 +197,7 @@
     <div class="container">
         <div class="theme-icons">⚽🎬🎉</div>
         <h1>Zdarov Bernai</h1>
-        <p class="subtitle">Kaip Zmogui Zmogui Zmogus, Taip Ir Zmogui Zmogui Zmogus</p>
+        <p class="subtitle">Kaip Žmogui Žmogui Žmogus, Taip Ir Žmogui Žmogui Žmogus</p>
 
         @if(session('error'))
             <div class="error" style="margin-bottom: 10px;">Nebesvaik Lukosiau</div>
@@ -211,12 +211,12 @@
                 <div class="form-group">
                     <label for="real_name">Vardas</label>
                     <input type="text" id="real_name" name="real_name" required 
-                           placeholder="Iveskite savo varda" 
+                           placeholder="Įveskite savo vardą" 
                            class="form-input">
                 </div>
                 
                 <button type="submit" class="login-btn">
-                    🚀 VAZIUOJAM 🚀
+                    🚀 VAŽIUOJAM 🚀
                 </button>
             </form>
         </div>

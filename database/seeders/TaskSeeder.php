@@ -15,14 +15,14 @@ class TaskSeeder extends Seeder
         $tasks = [
             [
                 'name' => 'ALAUMATRIJA',
-                'description' => 'Išgerti 20 alaus per visa savaitgali',
+                'description' => 'Išgerti 20 alaus per visą savaitgalį',
                 'status' => Task::STATUS_IN_PROGRESS,
                 'goal' => 20,
                 'count' => 0,
             ],
             [
                 'name' => 'VIDEOGRAFIJA',
-                'description' => 'Pasidaryti 5 selfius su lenkais',
+                'description' => 'Pasidaryti 5 selfius su lenkais(su Arturka nesiskaito)',
                 'status' => Task::STATUS_IN_PROGRESS,
                 'goal' => 5,
                 'count' => 0,
@@ -34,34 +34,44 @@ class TaskSeeder extends Seeder
             ],
             [
                 'name' => 'LIECNOGRAFIJA',
-                'description' => 'Gauti 2 panikiu numerius',
+                'description' => 'Gauti 2 panikių numerius',
                 'status' => Task::STATUS_IN_PROGRESS,
                 'goal' => 2,
                 'count' => 0,
             ],
             [
                 'name' => 'BAZNYCMORGIJA',
-                'description' => 'Sudalyvauti sekmadieninese misiose',
+                'description' => 'Sudalyvauti sekmadieninėse mišiose',
+                'status' => Task::STATUS_IN_PROGRESS,
+            ],
+            [
+                'name' => 'FULETAS',
+                'description' => 'Įpisti į stulpą iš kamuolio, atstumas ne mažiau kaip 11 metrų',
+                'status' => Task::STATUS_IN_PROGRESS,
+            ],
+            [
+                'name' => 'GAMOLOGIJA',
+                'description' => 'Aplošti Arcade bare lenką',
                 'status' => Task::STATUS_IN_PROGRESS,
             ],
             [
                 'name' => 'CIGIAMORFIJA',
-                'description' => 'Surukyti cigariuka trumpiau negu per 40 sekundziu',
+                'description' => 'Surukyti cigariuką trumpiau negu per 40 sekundžių',
                 'status' => Task::STATUS_IN_PROGRESS,
             ],
             [
                 'name' => 'TORNADIJA',
-                'description' => 'Pisti alaus tornada, kitaip sukuri',
+                'description' => 'Pisti alaus tornadą, kitaip sukuri',
                 'status' => Task::STATUS_IN_PROGRESS,
             ],
             [
                 'name' => 'BIZNIOLOGIJA',
-                'description' => 'Islosti saibu - kaip mum pohui - bet turi papliusinti',
+                'description' => 'Išlosti šaibų - kaip mum pohui - bet turi papliusinti',
                 'status' => Task::STATUS_IN_PROGRESS,
             ],
             [
                 'name' => 'PRIKOLOGIJA',
-                'description' => 'Pasakyti anekdotą lenkui, lenkiskai',
+                'description' => 'Pasakyti anekdotą lenkui, lenkiškai',
                 'status' => Task::STATUS_IN_PROGRESS,
             ],
         ];

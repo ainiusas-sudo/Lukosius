@@ -302,10 +302,12 @@
                 
                 @if($userRole === 'admin')
                     <div class="controls">
-                        <form method="POST" action="{{ route('tasks.decrement', $task) }}" style="display: inline;">
-                            @csrf
-                            <button type="submit" class="btn btn-decrement">-</button>
-                        </form>
+                        @if($task->count > 0)
+                            <form method="POST" action="{{ route('tasks.decrement', $task) }}" style="display: inline;">
+                                @csrf
+                                <button type="submit" class="btn btn-decrement">-</button>
+                            </form>
+                        @endif
                         
                         <form method="POST" action="{{ route('tasks.increment', $task) }}" style="display: inline;">
                             @csrf

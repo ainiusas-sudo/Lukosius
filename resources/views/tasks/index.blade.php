@@ -195,7 +195,7 @@
     <div class="container">
         <div class="header">
             <h1>🎓 Mokslai</h1>
-            <p>Tapk visaziniu avataru</p>
+            <p>Tapk visąžiniu avataru</p>
             @if($userRole === 'admin')
                 <div style="margin-top: 10px; padding: 8px 16px; background: rgba(34, 139, 34, 0.1); border: 1px solid #228B22; border-radius: 8px; display: inline-block;">
                     <span style="color: #228B22; font-weight: 600; font-size: 14px;">👑 Admin Mode - Can Edit Tasks</span>
