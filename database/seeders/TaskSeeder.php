@@ -100,6 +100,8 @@ class TaskSeeder extends Seeder
                 'name' => 'SULCIOOMANIJA',
                 'description' => 'Išgerti 5 stiklines skirtingų lenkiškų sulčių(galima su prosecu)',
                 'status' => Task::STATUS_IN_PROGRESS,
+                'goal' => 5,
+                'count' => 0,
             ],
             [
                 'name' => 'KOKTEILIOMANIJA',
