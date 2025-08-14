@@ -67,6 +67,16 @@ class TaskSeeder extends Seeder
                 'status' => Task::STATUS_IN_PROGRESS,
             ],
             [
+                'name' => 'OPERATURA',
+                'description' => 'Paskambinti Operatoriui per FaceTime',
+                'status' => Task::STATUS_IN_PROGRESS,
+            ],
+            [
+                'name' => 'NORMALIZACIJA',
+                'description' => 'Pabūti po dušu bent 20 minučių',
+                'status' => Task::STATUS_IN_PROGRESS,
+            ],
+            [
                 'name' => 'TORNADIJA',
                 'description' => 'Pisti alaus tornadą, kitaip sukuri',
                 'status' => Task::STATUS_IN_PROGRESS,
@@ -84,6 +94,11 @@ class TaskSeeder extends Seeder
             [
                 'name' => 'KASIOLOGIJA',
                 'description' => '10 taiklių metimų į žaislinį kašį',
+                'status' => Task::STATUS_IN_PROGRESS,
+            ],
+            [
+                'name' => 'SULCIOOMANIJA',
+                'description' => 'Išgerti 5 stiklines skirtingų lenkiškų sulčių(galima su prosecu)',
                 'status' => Task::STATUS_IN_PROGRESS,
             ],
             [
