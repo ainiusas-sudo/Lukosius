@@ -14,6 +14,11 @@ class TaskSeeder extends Seeder
     {
         $tasks = [
             [
+                'name' => 'STARTALOGIJA',
+                'description' => 'Paprašyk Ainiaus pusryčių ir suvalgyk ką gausi',
+                'status' => Task::STATUS_IN_PROGRESS,
+            ],
+            [
                 'name' => 'ALAUMATRIJA',
                 'description' => 'Išgerti 20 alaus per visą savaitgalį',
                 'status' => Task::STATUS_IN_PROGRESS,
