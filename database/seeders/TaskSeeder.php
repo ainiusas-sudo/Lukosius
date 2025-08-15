@@ -60,6 +60,11 @@ class TaskSeeder extends Seeder
                 'status' => Task::STATUS_IN_PROGRESS,
             ],
             [
+                'name' => 'KARSTOGRAFIJA',
+                'description' => 'HOT CHIP challenge',
+                'status' => Task::STATUS_IN_PROGRESS,
+            ],
+            [
                 'name' => 'SHOTOMATIKA',
                 'description' => 'Išgerti 5 shotus',
                 'status' => Task::STATUS_IN_PROGRESS,
