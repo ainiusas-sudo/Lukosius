@@ -107,6 +107,11 @@ class TaskSeeder extends Seeder
                 'status' => Task::STATUS_IN_PROGRESS,
             ],
             [
+                'name' => 'TRASHNOGRAFIJA',
+                'description' => 'Nusitrešti 5 cigariukus iš lenkų',
+                'status' => Task::STATUS_IN_PROGRESS,
+            ],
+            [
                 'name' => 'SULCIOOMANIJA',
                 'description' => 'Išgerti 5 stiklines skirtingų lenkiškų sulčių(galima su prosecu)',
                 'status' => Task::STATUS_IN_PROGRESS,
